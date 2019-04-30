@@ -1,5 +1,12 @@
 // customize gatsby config
 
 module.exports = {
-    plugins: ['gatsby-plug-emotion'],
-}
+    plugins: [
+      {
+        resolve: `gatsby-plugin-emotion`,
+        options: {
+          // Accepts all options defined by `babel-plugin-emotion` plugin.
+        },
+      },
+    ],
+  }
