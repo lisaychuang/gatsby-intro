@@ -19,5 +19,13 @@ module.exports = {
         }
       },
 
+      {
+        resolve: 'gatsby-source-filesystem', // enable local files to be used in GraphQL layer
+        options: {
+          name: 'posts',
+          path:'posts'
+        }
+      },
+
     ],
   }
