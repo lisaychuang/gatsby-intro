@@ -22,3 +22,15 @@ In this workshop, learn to build blazing fast apps and websites with React using
 - Learn to build and deploy blazing fast websites in the fraction of time.
 - Create websites quickly with performance baked in.
 - Deploy your sites for free in minutes with Netlify.
+
+##Installation
+Install npm dependencies
+
+`npm install`
+
+Serve app
+
+`npm run develop`
+
+Install emotion CSS 
+`npm i @emotion/core @emotion/styled gatsby-plugin-emotion`
