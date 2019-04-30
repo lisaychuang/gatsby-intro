@@ -1,6 +1,6 @@
 import React from 'react';
 import { Global, css } from '@emotion/core';
-import Helmet from 'react-helmet';
+import Helmet from 'react-helmet';  //document head manager for React
 import Header from './header';
 import useSiteMetadata from '../hooks/use-sitemetadata';
 
