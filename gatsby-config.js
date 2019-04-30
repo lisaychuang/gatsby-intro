@@ -8,12 +8,16 @@ module.exports = {
   },
 
     plugins: [
+      'gatsby-plugin-emotion',
+      'gatsby-plugin-react-helmet',
       {
-        resolve: `gatsby-plugin-emotion`,
+        resolve: 'gatsby-mdx',
         options: {
-          // Accepts all options defined by `babel-plugin-emotion` plugin.
-        },
+          defaultLayouts: {
+            default: require.resolve('./src/components/layout.js'),
+          }
+        }
       },
-      'gatsby-plugin-react-helmet'
+
     ],
   }
